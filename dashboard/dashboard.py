@@ -14,7 +14,7 @@ def create_and_plot_attribute(df, attribute, title):
     st.subheader(title)
     fig, ax = plt.subplots(figsize=(20, 10))
     sns.barplot(
-        x=by_attribute_df.columns[1],
+        x=attribute,
         y="count",
         data=by_attribute_df.sort_values(by=by_attribute_df.columns[1], ascending=False),
         ax=ax
