@@ -7,10 +7,10 @@ Link Streamlit Dashboard : https://rent-bike-sharing.streamlit.app/
 # How to run the dashboard
 
 1. Clone This Repository
-'git clone "https://github.com/AhmadIkhsanMaulana/proyek_akhir_analisis_data.git"'
+```git clone "https://github.com/AhmadIkhsanMaulana/proyek_akhir_analisis_data.git"```
 
 2. Install This library
-'pip install numpy pandas scipy matplotlib seaborn jupyter streamlit'
+```pip install numpy pandas scipy matplotlib seaborn jupyter streamlit```
 
 3. Run Streamlit
-'streamlit run dashboard\dashboard.py'
+```streamlit run dashboard\dashboard.py```
